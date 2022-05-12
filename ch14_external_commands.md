@@ -144,7 +144,7 @@ It is imperative to pass a range to run the external command as a filter. If you
 Let's assume that you need to remove the second column on both lines with the `awk` command:
 
 ```
-:%!awk "{print $1}"
+:%!awk '{print $1}'
 ```
 
 The result:
